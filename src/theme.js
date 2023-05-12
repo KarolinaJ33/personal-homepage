@@ -8,6 +8,8 @@ export const theme = {
         dodgerBlue: "#2188FF",
         semiDark: "#363636",
         alto: "#DADADA",
+        iron: "#D1D5DA",
+        whiteLilac: "#FBFBFE",
 
     },
     breakpoint: {
