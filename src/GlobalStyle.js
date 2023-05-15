@@ -9,10 +9,15 @@ export const GlobalStyle = createGlobalStyle`
    box-sizing:inherit;
   }
 
-  body {
+  #root {
     font-family: 'Inter', sans-serif;
     color: ${({ theme }) => theme.color.mineShaft}; 
     background: ${({ theme }) => theme.color.whiteLilac};
     word-break: break-word;
   }
+
+  body {
+    margin:0;
+  }
+  
   `;
