@@ -1,8 +1,11 @@
-import { Wrapper, Header, Content } from "./styled";
+import { Wrapper, Header, Content, List } from "./styled";
 
-const Section = ({ title, body }) => (
+const Section = ({ title, body, sectionContent }) => (
     <Wrapper>
-        <Header>{title}</Header>
+        <List>
+            <Header>{title}</Header>
+            {sectionContent}
+        </List>
         <Content>{body}</Content>
     </Wrapper>
 );
