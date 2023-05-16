@@ -1,8 +1,8 @@
-import Header from "./features/Header";
-import { Container } from "./features/Container/styled";
-import Section from "./features/Section";
-import Footer from "./features/Footer";
 
+import Header from "./features/PersonalHomepage/Header";
+import { Container } from "./features/PersonalHomepage/Container/styled";
+import Section from "./features/PersonalHomepage/Section";
+import Footer from "./features/PersonalHomepage/Footer";
 
 function App() {
   return (
