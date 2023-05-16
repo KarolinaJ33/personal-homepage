@@ -8,11 +8,6 @@ box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0
 border-radius: 4px;
 left: calc(50% - 328px/2 - 410px);
 top: 608px;
-
-@media (max-width: ${({ theme })=> theme.breakpoints.mobileMax}px) {
-    padding: 16px;
-    margin-top: 48px;
-}
 `;
 
 export const Header = styled.h2`
@@ -25,9 +20,6 @@ font-size: 30px;
 line-height: 36px;
 text-align: left;
 
-@media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-    font-size: 22px;
-}
 `;
 
 export const List = styled.header`
