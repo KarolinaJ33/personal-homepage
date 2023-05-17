@@ -5,7 +5,7 @@ import { ReactComponent as Linkedin } from "./icons/LinkedIn.svg";
 const Footer = () => (
     <Wrapper>
         <Caption>Let's talk</Caption>
-        <Header>jasiowkakarolina@gmail.com</Header>
+        <Header href="mailto:jasiowkakarolina@gmail.com">jasiowkakarolina@gmail.com</Header>
         <Content>
             I'm always open to new projects whenever I have the time. If you
             have a website, dashboard or mobile app in mind and need some help

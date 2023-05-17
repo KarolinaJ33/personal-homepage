@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-
     max-width: 690px;
     min-height: 280px;
     margin-top: 10px;
@@ -14,7 +13,7 @@ export const Content = styled.p`
     letter-spacing: 0.05em;
     margin: 0;
 `;
- 
+
 export const Header = styled.a`
     font-weight: 900;
     line-height: 39px;
@@ -27,7 +26,7 @@ export const Header = styled.a`
     &:hover {
         color: ${({ theme }) => theme.color.scienceBlue};
     }
-;`
+`;
 
 export const Caption = styled.p`
     font-weight: 700;
@@ -38,7 +37,7 @@ export const Caption = styled.p`
 `;
 
 export const Container = styled.div`
-margin-top: 10px;
+    margin-top: 10px;
 `;
 
 export const Icon = styled.a`
@@ -46,9 +45,8 @@ export const Icon = styled.a`
     font-size: 32px;
     line-height: 39px;
     letter-spacing: 0.05em;
-    margin-right: 24px;
     color: ${({ theme }) => theme.color.mineShaft};
-    cursor: pointer;
+    margin-right: 24px;
     transition: 0.3s;
 
     &:hover {
