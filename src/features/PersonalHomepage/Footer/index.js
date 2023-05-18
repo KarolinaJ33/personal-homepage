@@ -22,7 +22,7 @@ const Footer = () => (
             <Icon
                 target="_blank"
                 rel="noreferrer"
-                href="https://https://www.linkedin.com/in/karolina-jasi%C3%B3wka/"
+                href="https://www.linkedin.com/in/karolina-jasi%C3%B3wka-3618ab232/"
             >
                 <Linkedin />
             </Icon>

@@ -4,6 +4,11 @@ export const Wrapper = styled.div`
     max-width: 690px;
     min-height: 280px;
     margin-top: 10px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        gap: 12px;
+        margin-top: 48px;
+    }
 `;
 
 export const Content = styled.p`
@@ -52,4 +57,5 @@ export const Icon = styled.a`
     &:hover {
         color: ${({ theme }) => theme.color.scienceBlue};
     }
+    
 `;
