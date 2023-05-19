@@ -36,7 +36,7 @@ export const Header = styled.a`
 export const Caption = styled.p`
     font-weight: 700;
     font-size: 12px;
-    line-height: 130%;
+    line-height: 16px;
     text-transform: uppercase;
     color: ${({ theme }) => theme.color.slateGrey};
 `;
