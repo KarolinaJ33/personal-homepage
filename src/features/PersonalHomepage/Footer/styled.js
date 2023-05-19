@@ -50,12 +50,12 @@ export const Icon = styled.a`
     font-size: 32px;
     line-height: 39px;
     letter-spacing: 0.05em;
-    color: ${({ theme }) => theme.color.mineShaft};
     margin-right: 24px;
     transition: 0.3s;
 
     &:hover {
         color: ${({ theme }) => theme.color.scienceBlue};
+        
     }
     
 `;
