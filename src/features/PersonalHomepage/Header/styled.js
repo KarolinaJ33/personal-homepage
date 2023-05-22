@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { ReactComponent as MsgIcon } from "../Header/icon/message.svg";
 
 export const Wrapper = styled.div`
 display: grid;
@@ -43,5 +44,12 @@ export const Info = styled.p`
 font-weight: 400;
 font-size: 20px;
 line-height: 140%;
-letter-spacing: 0.05em;`
+letter-spacing: 0.05em;
+color: ${({ theme }) => theme.color.slateGrey};
+;`
+
+export const MessageIcon = styled(MsgIcon)`
+    width: 19px;
+    height: 17px;
+`;
 
