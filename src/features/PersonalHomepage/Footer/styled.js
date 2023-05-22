@@ -52,6 +52,8 @@ export const Icon = styled.a`
     letter-spacing: 0.05em;
     margin-right: 24px;
     transition: 0.3s;
+    color: ${({ theme }) => theme.color.mineShaft};
+
 
     &:hover {
         color: ${({ theme }) => theme.color.scienceBlue};
