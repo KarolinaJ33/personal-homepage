@@ -10,6 +10,7 @@ export const theme = {
         alto: "#DADADA",
         iron: "#D1D5DA",
         whiteLilac: "#FBFBFE",
+        anakiwa: "#8CC2FF",
 
     },
     breakpoint: {
