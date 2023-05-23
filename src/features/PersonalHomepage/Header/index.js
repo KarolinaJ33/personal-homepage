@@ -2,7 +2,7 @@ import { Wrapper, StyledHeader, SubHeader, Image, Content, Info, MessageIcon } f
 import photo from "./images/KJ.jpg";
 import { Button } from "../Button";
 
-const Header = ({ title }) => (
+export const Header = () => (
     <Wrapper>
         <Image src={photo} alt=""></Image>
         <Content>
