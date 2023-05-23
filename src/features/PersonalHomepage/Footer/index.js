@@ -2,7 +2,7 @@ import { Wrapper, Caption, Content, Header, Container, Icon } from "./styled";
 import { ReactComponent as Github } from "./icons/GitHub.svg";
 import { ReactComponent as Linkedin } from "./icons/LinkedIn.svg";
 
-const Footer = () => (
+export const Footer = () => (
     <Wrapper>
         <Caption>Let's talk</Caption>
         <Header href="mailto:jasiowkakarolina@gmail.com">jasiowkakarolina@gmail.com</Header>
