@@ -1,13 +1,13 @@
 import { Wrapper, Header, Content, List } from "./styled";
 
-const Section = ({ title, body, sectionContent }) => (
+export const Section = ({ title, skills }) => (
     <Wrapper>
-        <List>
-            <Header>{title}</Header>
-            {sectionContent}
-        </List>
-        <Content>{body}</Content>
+        <Header>{title}</Header>
+        <Content>
+            {skills.map(skill => (
+            <List>{skill}</List>
+            ))}
+            </Content>
     </Wrapper>
 );
 
-export default Section;
