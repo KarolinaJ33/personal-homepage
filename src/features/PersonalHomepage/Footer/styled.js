@@ -17,6 +17,11 @@ export const Content = styled.p`
     line-height: 140%;
     letter-spacing: 0.05em;
     margin: 0;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+        font-size: 14px;
+        line-height: 17px;
+    }
 `;
 
 export const Header = styled.a`
@@ -31,6 +36,10 @@ export const Header = styled.a`
     &:hover {
         color: ${({ theme }) => theme.color.scienceBlue};
     }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+        font-size: 18px;
+    }
 `;
 
 export const Caption = styled.p`
@@ -39,10 +48,11 @@ export const Caption = styled.p`
     line-height: 16px;
     text-transform: uppercase;
     color: ${({ theme }) => theme.color.slateGrey};
+    margin: 0;
 `;
 
 export const Container = styled.div`
-    margin-top: 10px;
+    margin-top: 40px;
 `;
 
 export const Icon = styled.a`
@@ -54,10 +64,7 @@ export const Icon = styled.a`
     transition: 0.3s;
     color: ${({ theme }) => theme.color.mineShaft};
 
-
     &:hover {
         color: ${({ theme }) => theme.color.scienceBlue};
-        
     }
-    
 `;
