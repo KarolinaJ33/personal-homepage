@@ -1,6 +1,7 @@
 import { Wrapper, Caption, Content, Header, Container, Icon } from "./styled";
-import { ReactComponent as Github } from "./icons/GitHub.svg";
-import { ReactComponent as Linkedin } from "./icons/LinkedIn.svg";
+import { ReactComponent as Github } from "../icons/GitHub.svg";
+import { ReactComponent as Linkedin } from "../icons/LinkedIn.svg"; 
+
 
 export const Footer = () => (
     <Wrapper>
