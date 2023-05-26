@@ -12,7 +12,7 @@ export const Skills = () => (
         </Section>
 
         <Section
-            title="What I want to learn next 🚀"
+            title="What I want to learn next&nbsp;🚀"
             skills={futureSkills}
         >
         </Section>
