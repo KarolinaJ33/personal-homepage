@@ -14,3 +14,5 @@ export const PersonalHomepage = () => (
         <Footer />
     </>
 ); 
+
+export default PersonalHomepage;
