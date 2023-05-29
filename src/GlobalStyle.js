@@ -3,7 +3,8 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
   html {
     box-sizing: border-box;
-  }
+    scroll-behavior: smooth;
+  };
 
   *, ::after, ::before {
    box-sizing: inherit;
@@ -15,9 +16,9 @@ export const GlobalStyle = createGlobalStyle`
     color: ${({ theme }) => theme.color.mineShaft}; 
     background: ${({ theme }) => theme.color.whiteLilac};
     word-break: break-word;
-    padding: 115px 40px 110px 40px;
-    letter-spacing: 0.05em;
-    
+    padding: 48px 40px 110px 40px;
+    transition: 0.3s;
+    letter-spacing: 0.05em; 
   }
   
   body {
