@@ -8,9 +8,7 @@ export const Skills = () => (
             title="My skillset includes 🛠️" 
             skills={skillsList}
         >
-
         </Section>
-
         <Section
             title="What I want to learn next&nbsp;🚀"
             skills={futureSkills}
