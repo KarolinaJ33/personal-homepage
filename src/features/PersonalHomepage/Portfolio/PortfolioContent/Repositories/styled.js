@@ -5,12 +5,13 @@ export const List = styled.ul`
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    list-style-type: style none;
+    list-style: none;
     grid-gap: 32px;
 `;
 
 export const ListItem = styled.div`
     display: grid;
+    background-color: ${({ theme }) => theme.color.white};
     grid-template-columns: auto;
     min-height: 322px;
     border: 6px solid rgba(209, 213, 218, 0.3);
