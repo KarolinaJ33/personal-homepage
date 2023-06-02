@@ -10,18 +10,16 @@ export const GlobalStyle = createGlobalStyle`
    box-sizing: inherit;
   }
 
-  #root {
+  body {
+    display: flex;
     font-family: 'Inter', sans-serif;
     justify-content: center;
+    line-height: 120%;
+    padding: 15px 0px 10px 0px;
     color: ${({ theme }) => theme.color.mineShaft}; 
     background: ${({ theme }) => theme.color.whiteLilac};
     word-break: break-word;
-    padding: 48px 40px 110px 40px;
     transition: 0.3s;
     letter-spacing: 0.05em; 
-  }
-  
-  body {
-    margin:0;
-  }
-  `;
+  };
+`;
