@@ -1,7 +1,7 @@
 export const futureSkills = [
     "TypeScript",
     "React context",
-    "React Query",
+    "TanStack Query",
     "Node.js",
     "Unit testing",
     "React Testing Library"
