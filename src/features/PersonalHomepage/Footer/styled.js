@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.footer`
+    align-self: flex-start;
     max-width: 690px;
     min-height: 280px;
-    margin-top: 10px;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         gap: 12px;
@@ -16,11 +16,13 @@ export const Content = styled.p`
     font-size: 18px;
     line-height: 140%;
     letter-spacing: 0.05em;
-    margin: 0;
+    margin-top: 24px;
+    margin-bottom: 36px;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 17px;
+        margin-top: 12px;
     }
 `;
 
@@ -28,6 +30,7 @@ export const Header = styled.a`
     font-weight: 900;
     line-height: 39px;
     letter-spacing: 0.05em;
+    font-size: 32px;
     color: ${({ theme }) => theme.color.mineShaft};
     cursor: pointer;
     text-decoration: none;
@@ -44,11 +47,16 @@ export const Header = styled.a`
 
 export const Caption = styled.p`
     font-weight: 700;
-    font-size: 12px;
+    font-size: 18px;
     line-height: 16px;
     text-transform: uppercase;
     color: ${({ theme }) => theme.color.slateGrey};
-    margin: 0;
+    margin-bottom: 14px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
 `;
 
 export const Container = styled.div`
@@ -56,7 +64,8 @@ export const Container = styled.div`
 `;
 
 export const Icon = styled.a`
-    font-weight: 900;
+    width: 48px;
+    height: 48px;
     font-size: 32px;
     line-height: 39px;
     letter-spacing: 0.05em;
