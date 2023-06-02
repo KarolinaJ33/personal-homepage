@@ -1,10 +1,11 @@
 import styled from "styled-components";
 import { ReactComponent as GitHub } from "../icons/GitHub.svg";
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.article`
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 `;
 
 export const Header = styled.h1`
@@ -35,7 +36,6 @@ export const SubHeader = styled.h2`
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         font-size: 17px;
-        
     }
 `;
 

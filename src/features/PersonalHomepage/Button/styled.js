@@ -9,18 +9,19 @@ export const StyledButton = styled.button`
     font-size: 20px;
     padding: 12px 16px;
     height: 49px;
+    width: fit-content;
     border: 1px solid rgba(209, 213, 218, 0.3);
     font-family: Inter;
     border-radius: 4px;
     background-color: ${({ theme }) => theme.color.scienceBlue};
     color: ${({ theme }) => theme.color.white};
     font-size: 20px;
+    font-weight: 600;
     cursor: pointer;
     line-height: 24px;
     letter-spacing: 0.05em;
     transition: 0.3s;
     position: absolute;
-    
 
     &:hover {
         box-shadow: 2px -2px 0px #8cc2ff, -2px 2px 0px #8cc2ff,

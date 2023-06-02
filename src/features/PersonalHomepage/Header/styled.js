@@ -21,10 +21,11 @@ export const StyledHeader = styled.header`
     font-weight: 900;
     font-size: 38px;
     line-height: 46px;
-    margin: 12px 0 0 ;
+    margin: 0;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         font-size: 22px;
+        margin: 0;
     }
 `;
 
@@ -34,10 +35,10 @@ export const SubHeader = styled.h2`
     line-height: 16px;
     text-transform: uppercase;
     color: ${({ theme }) => theme.color.slateGrey};
-    margin-bottom: 12px;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
-        padding-bottom: 8px;
+        margin: 0;
+    }
 `;
 
 export const Image = styled.img`
@@ -52,9 +53,13 @@ export const Image = styled.img`
     }
 `;
 
-export const Content = styled.div``;
+export const Content = styled.div`
+    max-width: 633px;
+    display: grid;
+`;
 
 export const Info = styled.p`
+    margin: 35px 0 32px;
     font-weight: 400;
     font-size: 20px;
     line-height: 140%;
@@ -63,11 +68,11 @@ export const Info = styled.p`
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         font-size: 17px;
-        margin: 16px 0 24px;
+        margin: 10px 0 36px;
     }
 `;
 
 export const MessageIcon = styled(MsgIcon)`
-    width: 16px;
-    height: 14px;
+    width: 17px;
+    height: 16px;
 `;
