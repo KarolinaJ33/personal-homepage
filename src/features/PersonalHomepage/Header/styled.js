@@ -12,16 +12,16 @@ export const Wrapper = styled.header`
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         grid-template-columns: 1fr;
         grid-gap: 13px;
-        margin-bottom: 84px;
+        margin: 0 0 48px;
     }
 `;
 
 export const StyledHeader = styled.header`
-    font-style: normal;
+    color: ${({ theme }) => theme.colors.textPrimary};
+    margin: 0;
     font-weight: 900;
     font-size: 38px;
     line-height: 46px;
-    margin: 0;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         font-size: 22px;
@@ -34,7 +34,6 @@ export const SubHeader = styled.h2`
     font-size: 12px;
     line-height: 16px;
     text-transform: uppercase;
-    color: ${({ theme }) => theme.color.slateGrey};
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         margin: 0;
@@ -59,12 +58,11 @@ export const Content = styled.div`
 `;
 
 export const Info = styled.p`
-    margin: 35px 0 32px;
+    margin: 30px 0 32px;
     font-weight: 400;
     font-size: 20px;
     line-height: 140%;
     letter-spacing: 0.05em;
-    color: ${({ theme }) => theme.color.slateGrey};
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         font-size: 17px;
@@ -73,6 +71,6 @@ export const Info = styled.p`
 `;
 
 export const MessageIcon = styled(MsgIcon)`
-    width: 17px;
-    height: 16px;
+    width: 24px;
+    height: 24px;
 `;
