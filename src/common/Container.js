@@ -5,11 +5,11 @@ export const Container = styled.main`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 115px 30px 30px;
+    padding: 0px 30px 30px;
+   
 
     @media (max-width:${({ theme }) => theme.breakpoint.mobileMax}px) {
         width: auto;
-        padding: 32px 14px 31px;
-        
+        padding: 0px 14px 31px;   
     };
 `;
