@@ -1,5 +1,23 @@
 # Demo 
-[See Movies Browser](https://karolinaj33.github.io/personal-homepage/)
+[See Personal Homepage
+](https://karolinaj33.github.io/personal-homepage/)
+
+# Description
+I made the Personal Homepage based on a design in Figma. It contains information about my current skills, my development plans and a redirect to my repository
+
+# Technologies
+- `HTML`
+- `BEM`
+- `CSS`
+- `Flex/Grid`
+- `Transition`
+- `Media query`
+- `JS/ES6+`
+- `React`
+- `Redux`
+- `Redux-Saga`
+- `Styled Components`
+- `GlobalStyles & Theme`
 
 # Getting Started with Create React App
 
