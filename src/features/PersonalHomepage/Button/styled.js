@@ -2,34 +2,34 @@ import styled from "styled-components";
 
 export const StyledButton = styled.button`
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
     gap: 16px;
     font-size: 20px;
-    padding: 12px 16px;
+    padding: 17px;
     height: 49px;
-    width: fit-content;
     border: 1px solid rgba(209, 213, 218, 0.3);
-    font-family: Inter;
     border-radius: 4px;
-    background-color: ${({ theme }) => theme.color.scienceBlue};
-    color: ${({ theme }) => theme.color.white};
+    color: ${({ theme }) => theme.colors.buttonLink.text};
+    background-color: ${({ theme }) => theme.colors.primary};
     font-size: 20px;
     font-weight: 600;
     cursor: pointer;
     line-height: 24px;
     letter-spacing: 0.05em;
     transition: 0.3s;
-    position: absolute;
+    font-family: inherit;
 
     &:hover {
-        box-shadow: 2px -2px 0px #8cc2ff, -2px 2px 0px #8cc2ff,
-            2px 2px 0px #8cc2ff, -2px -2px 0px #8cc2ff;
+        border: 1px solid ${({ theme }) => theme.colors.buttonLink.border};
+        box-shadow: 2px -2px 0 ${({ theme }) => theme.colors.buttonLink.hover},
+            -2px 2px 0 ${({ theme }) => theme.colors.buttonLink.hover},
+            2px 2px 0 ${({ theme }) => theme.colors.buttonLink.hover},
+            -2px -2px 0 ${({ theme }) => theme.colors.buttonLink.hover};
     }
-
     &:active {
-        box-shadow: inset 0px 2px 0px rgba(20, 70, 32, 0.2);
+        box-shadow: inset 0 2px 0
+            ${({ theme }) => theme.colors.buttonLink.active};
+        border: 1px solid ${({ theme }) => theme.colors.buttonLink.border};
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
