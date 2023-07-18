@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/personal-homepage/static/js/main.e6504853.js",
+    "main.js": "/personal-homepage/static/js/main.f503985c.js",
     "static/js/787.162bc9a0.chunk.js": "/personal-homepage/static/js/787.162bc9a0.chunk.js",
     "static/media/KJ.jpg": "/personal-homepage/static/media/KJ.aec761f2610a9f17040b.jpg",
-    "static/media/sun.svg": "/personal-homepage/static/media/sun.e76bbd7c1823818a966c17355dffe000.svg",
+    "static/media/sun.svg": "/personal-homepage/static/media/sun.a8deafe9a2d19acf9fa392655e195c31.svg",
     "static/media/GitHub.svg": "/personal-homepage/static/media/GitHub.1f755fa9d6c7227863d78da59bc8fa8d.svg",
     "static/media/Danger.svg": "/personal-homepage/static/media/Danger.d0a15f6aaf5e5afc2eabc900a8e30799.svg",
     "static/media/LinkedIn.svg": "/personal-homepage/static/media/LinkedIn.fdcedf4dcf739dab8f66d57efdbbcc4d.svg",
     "static/media/message.svg": "/personal-homepage/static/media/message.84cc86865e5f6a4e25e1e3306b1b8706.svg",
     "index.html": "/personal-homepage/index.html",
     "static/media/elipse.svg": "/personal-homepage/static/media/elipse.88a075cf3a7f1af15999cb03bb3a0360.svg",
-    "main.e6504853.js.map": "/personal-homepage/static/js/main.e6504853.js.map",
+    "main.f503985c.js.map": "/personal-homepage/static/js/main.f503985c.js.map",
     "787.162bc9a0.chunk.js.map": "/personal-homepage/static/js/787.162bc9a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.e6504853.js"
+    "static/js/main.f503985c.js"
   ]
 }
