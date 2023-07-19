@@ -1,4 +1,6 @@
+# <h1 align="center"> ![image](https://github.com/KarolinaJ33/personal-homepage/assets/80458977/b13aeccb-e5fa-47bf-8e05-fca87dfe4a13)Personal Homepage <h1>
 # Demo 
+
 [See Personal Homepage
 ](https://karolinaj33.github.io/personal-homepage/)
 
