@@ -18,6 +18,7 @@ export const Content = styled.p`
     letter-spacing: 0.05em;
     margin-top: 24px;
     margin-bottom: 36px;
+    color: ${({ theme }) => theme.colors.footer.primary};
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         font-size: 16px;
@@ -31,13 +32,13 @@ export const Header = styled.a`
     line-height: 39px;
     letter-spacing: 0.05em;
     font-size: 32px;
-    color: ${({ theme }) => theme.color.mineShaft};
+    color: ${({ theme }) => theme.colors.footer.primary};
     cursor: pointer;
     text-decoration: none;
     transition: 0.3s;
 
     &:hover {
-        color: ${({ theme }) => theme.color.scienceBlue};
+        color: ${({ theme }) => theme.colors.footer.hover}
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
@@ -50,7 +51,6 @@ export const Caption = styled.p`
     font-size: 18px;
     line-height: 16px;
     text-transform: uppercase;
-    color: ${({ theme }) => theme.color.slateGrey};
     margin-bottom: 14px;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
@@ -71,9 +71,9 @@ export const Icon = styled.a`
     letter-spacing: 0.05em;
     margin-right: 24px;
     transition: 0.3s;
-    color: ${({ theme }) => theme.color.mineShaft};
+    color: ${({ theme }) => theme.colors.footer.primary};
 
     &:hover {
-        color: ${({ theme }) => theme.color.scienceBlue};
-    }
+        color: ${({ theme }) => theme.colors.footer.hover}
+    };
 `;

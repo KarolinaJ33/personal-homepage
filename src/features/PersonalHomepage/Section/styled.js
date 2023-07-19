@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.section`
-    background-color: ${({ theme }) => theme.color.white};
+    background-color: ${({ theme }) => theme.colors.section.background};
     box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02),
         0px 16px 58px rgba(9, 10, 51, 0.03);
     border-radius: 4px;
@@ -22,7 +22,8 @@ export const Header = styled.h2`
     line-height: 36px;
     letter-spacing: 0.05em;
     padding-bottom: 15px;
-    border-bottom: 1px solid ${({ theme }) => theme.color.iron};
+    border-bottom: 1px solid ${({ theme }) => theme.colors.section.headerUnderline};
+    color: ${({ theme }) => theme.colors.textPrimary};
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         font-size: 18px;
@@ -39,10 +40,10 @@ export const List = styled.li`
     list-style: none;
     align-items: center;
     margin: 0px;
-    color: ${({ theme }) => theme.color.slateGrey};
+    color: ${({ theme }) => theme.colors.section.text};
     &::before {
         content: " ";
-        background-color: ${({ theme }) => theme.color.scienceBlue};
+        background-color: ${({ theme }) => theme.colors.primary};
         display: block;
         width: 9px;
         height: 9px;

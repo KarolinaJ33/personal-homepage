@@ -6,10 +6,15 @@ export const Wrapper = styled.article`
     flex-direction: column;
     align-items: center;
     width: 100%;
+    color: ${({ theme }) => theme.colors.textPrimary};
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+        margin: 50px 0;
+    }
 `;
 
 export const Header = styled.h1`
-    color: ${({ theme }) => theme.color.mineShaft};
+    color: ${({ theme }) => theme.colors.textPrimary};
     font-family: "Inter";
     font-style: normal;
     font-weight: 900;
@@ -25,12 +30,12 @@ export const Header = styled.h1`
 `;
 
 export const SubHeader = styled.h2`
+    color: ${({ theme }) => theme.colors.textPrimary};
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 140%;
-    /* identical to box height, or 28px */
     letter-spacing: 0.05em;
     margin: 8px 0 24px;
 
@@ -42,5 +47,6 @@ export const SubHeader = styled.h2`
 export const Icon = styled(GitHub)`
     width: 40px;
     height: 40px;
-    color: ${({ theme }) => theme.color.scienceBlue};
+    margin: 0;
+    color: ${({ theme }) => theme.colors.primary};
 `;
