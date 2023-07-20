@@ -1,4 +1,6 @@
 # <h1 align="center"> Welcome to my Personal Homepage ![image](https://github.com/KarolinaJ33/personal-homepage/assets/80458977/973421d9-4104-472f-8eae-05c085640264)<h1>
+<p align="center"><img src="public/PersonalHomepage.jpg"></p>
+
 # Demo 
 
 [See Personal Homepage
