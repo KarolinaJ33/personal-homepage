@@ -1,4 +1,3 @@
-
 import { Provider } from "react-redux";
 import { ThemeProvider } from "styled-components";
 import { PersonalHomepage } from "../../features/PersonalHomepage";
@@ -12,11 +11,11 @@ export const App = () => {
     const darkTheme = useSelector(selectDarkTheme);
 
     return (
-      <Provider store={store}>
-      <ThemeProvider theme={darkTheme ? dark : light}>
-        <GlobalStyle />
-        <PersonalHomepage />
-      </ThemeProvider>
-      </Provider>
+        <Provider store={store}>
+            <ThemeProvider theme={darkTheme ? dark : light}>
+                <GlobalStyle />
+                <PersonalHomepage />
+            </ThemeProvider>
+        </Provider>
     );
 };

@@ -6,10 +6,9 @@ export const Container = styled.main`
     flex-direction: column;
     align-items: center;
     padding: 0px 30px 30px;
-   
 
-    @media (max-width:${({ theme }) => theme.breakpoint.mobileMax}px) {
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         width: auto;
-        padding: 0px 14px 31px;   
-    };
+        padding: 0px 14px 31px;
+    }
 `;

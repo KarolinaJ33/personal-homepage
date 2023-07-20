@@ -60,5 +60,5 @@ export const IconWrapper = styled.span`
 `;
 
 export const Icon = styled(SunIcon)`
-     fill: ${({ theme }) => theme.colors.switchTheme.icon};
+    fill: ${({ theme }) => theme.colors.switchTheme.icon};
 `;
