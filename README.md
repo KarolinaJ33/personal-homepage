@@ -24,6 +24,10 @@ I made the Personal Homepage based on a design in Figma. It contains information
 - `Styled Components`
 - `GlobalStyles & Theme`
 
+# Contact to me:
+[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue&link=https://www.linkedin.com/in/karolina-jasiówka-3618ab232/)](https://www.linkedin.com/in/karolina-jasiówka-3618ab232/)
+[![Gmail Badge](https://img.shields.io/badge/Gmail-red?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jasiowkakarolina@gmail.com)](mailto:jasiowkakarolina@gmail.com)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
