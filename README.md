@@ -1,4 +1,6 @@
-# <h1 align="center"> Welcome to my Personal Homepage ![image](https://github.com/KarolinaJ33/personal-homepage/assets/80458977/973421d9-4104-472f-8eae-05c085640264)<h1>
+# <p align="center"> Welcome to my Personal Homepage ![image](https://github.com/KarolinaJ33/personal-homepage/assets/80458977/973421d9-4104-472f-8eae-05c085640264)</p>
+<p align="center"><img src="public/PersonalHomepage.jpg"></p>
+
 # Demo 
 
 [See Personal Homepage
@@ -21,6 +23,10 @@ I made the Personal Homepage based on a design in Figma. It contains information
 - `Redux-Saga`
 - `Styled Components`
 - `GlobalStyles & Theme`
+
+# Contact to me:
+[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue&link=https://www.linkedin.com/in/karolina-jasiówka-3618ab232/)](https://www.linkedin.com/in/karolina-jasiówka-3618ab232/)
+[![Gmail Badge](https://img.shields.io/badge/Gmail-red?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jasiowkakarolina@gmail.com)](mailto:jasiowkakarolina@gmail.com)
 
 # Getting Started with Create React App
 
