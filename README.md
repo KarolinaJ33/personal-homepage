@@ -1,8 +1,10 @@
+# <h1 align="center"> Welcome to my Personal Homepage ![image](https://github.com/KarolinaJ33/personal-homepage/assets/80458977/973421d9-4104-472f-8eae-05c085640264)<h1>
 # Demo 
+
 [See Personal Homepage
 ](https://karolinaj33.github.io/personal-homepage/)
 
-# Description
+# Description ![image](https://github.com/KarolinaJ33/personal-homepage/assets/80458977/b13aeccb-e5fa-47bf-8e05-fca87dfe4a13)
 I made the Personal Homepage based on a design in Figma. It contains information about my current skills, my development plans and a redirect to my repository
 
 # Technologies
