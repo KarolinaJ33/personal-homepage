@@ -94,7 +94,7 @@ export const Link = styled.a`
     text-decoration: none;
 
     &:hover {
-        filter: brightness(120%);
+        filter: brightness(140%);
     };
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
