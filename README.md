@@ -25,7 +25,10 @@ I made the Personal Homepage based on a design in Figma. It contains information
 - `GlobalStyles & Theme`
 
 # Contact to me:
-[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue&link=https://www.linkedin.com/in/karolina-jasiówka-3618ab232/)](https://www.linkedin.com/in/karolina-jasiówka-3618ab232/)
+<a href="https://www.linkedin.com/in/karolina-jasiówka-3618ab232/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue" alt="Linkedin Badge">
+  </a>
+
 [![Gmail Badge](https://img.shields.io/badge/Gmail-red?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jasiowkakarolina@gmail.com)](mailto:jasiowkakarolina@gmail.com)
 
 # Getting Started with Create React App
