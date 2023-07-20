@@ -59,7 +59,6 @@ export const light = {
         footer: {
             primary: colorNames.mineShaft,
             hover: colorNames.scienceBlue,
-            
         },
     },
 };

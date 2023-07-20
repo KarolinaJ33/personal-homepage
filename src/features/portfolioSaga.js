@@ -1,7 +1,10 @@
 import { delay, put, call, takeLatest } from "redux-saga/effects";
-import { fetchPortfolio, fetchError, fetchRepositories  } from "./portfolioSlice";
+import {
+    fetchPortfolio,
+    fetchError,
+    fetchRepositories,
+} from "./portfolioSlice";
 import { portfolioAPI } from "./portfolioAPI";
-
 
 const DELAY_ACTION = 2000;
 
@@ -11,11 +14,10 @@ function* fetchPortfolioHandler() {
         const portfolio = yield call(portfolioAPI);
         yield put(fetchRepositories(portfolio));
     } catch (error) {
-    yield put(fetchError());
-    };
-
-};
+        yield put(fetchError());
+    }
+}
 
 export function* watchFetchPortfolio() {
-    yield takeLatest(fetchPortfolio.type, fetchPortfolioHandler)
-};
+    yield takeLatest(fetchPortfolio.type, fetchPortfolioHandler);
+}

@@ -1,19 +1,23 @@
 import { Wrapper, Header, SubHeader, Icon } from "./styled";
 import { PortfolioContent } from "./PortfolioContent";
-import { useDispatch, useSelector } from "react-redux"; 
+import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
-import { fetchPortfolio, selectPortfolio, selectPortfolioState } from "../../portfolioSlice";
+import {
+    fetchPortfolio,
+    selectPortfolio,
+    selectPortfolioState,
+} from "../../portfolioSlice";
 
 export const Portfolio = () => {
     const dispatch = useDispatch();
-    
+
     const portfolioState = useSelector(selectPortfolioState);
-    const portfolio = useSelector(selectPortfolio)
+    const portfolio = useSelector(selectPortfolio);
 
     useEffect(() => {
-        dispatch(fetchPortfolio())
-    }, [])
-    
+        dispatch(fetchPortfolio());
+    }, []);
+
     return (
         <Wrapper>
             <Icon />
@@ -28,4 +32,3 @@ export const Portfolio = () => {
 };
 
 export default Portfolio;
-

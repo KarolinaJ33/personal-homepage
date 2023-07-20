@@ -5,14 +5,9 @@ export const Section = ({ title, skills }) => (
     <Wrapper>
         <Header>{title}</Header>
         <Content>
-            {skills.map(skill => (
-            <List
-            key={nanoid()}
-            >
-                {skill}
-                </List>
+            {skills.map((skill) => (
+                <List key={nanoid()}>{skill}</List>
             ))}
-            </Content>
+        </Content>
     </Wrapper>
 );
-

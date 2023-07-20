@@ -13,4 +13,4 @@ export const PersonalHomepage = () => (
         <Portfolio />
         <Footer />
     </Container>
-); 
+);

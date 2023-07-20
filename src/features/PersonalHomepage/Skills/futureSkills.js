@@ -3,5 +3,5 @@ export const futureSkills = [
     "React context",
     "TanStack Query",
     "Unit testing",
-    "React Testing Library"
+    "React Testing Library",
 ];

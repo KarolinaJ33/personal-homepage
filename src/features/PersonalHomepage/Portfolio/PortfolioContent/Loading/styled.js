@@ -9,8 +9,8 @@ export const LoadingWrapper = styled.div`
     gap: 48px;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
-      margin: 20px;
-  };
+        margin: 20px;
+    }
 `;
 
 export const Info = styled.p`
@@ -34,14 +34,14 @@ export const StyledSpinner = styled(Spinner)`
     animation: rotate 1.4s linear infinite;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
-    height: 100px;
-    width: 100px;
-    border-width: 6px;
-  };
+        height: 100px;
+        width: 100px;
+        border-width: 6px;
+    }
 
     @keyframes rotate {
         to {
             transform: rotate(360deg);
-        };
-    };
+        }
+    }
 `;

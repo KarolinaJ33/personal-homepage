@@ -12,8 +12,7 @@ export const Wrapper = styled.section`
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         margin: 0 0 50px;
         padding: 16px;
-    };
-    
+    }
 `;
 
 export const Header = styled.h2`
@@ -22,13 +21,14 @@ export const Header = styled.h2`
     line-height: 36px;
     letter-spacing: 0.05em;
     padding-bottom: 15px;
-    border-bottom: 1px solid ${({ theme }) => theme.colors.section.headerUnderline};
+    border-bottom: 1px solid
+        ${({ theme }) => theme.colors.section.headerUnderline};
     color: ${({ theme }) => theme.colors.textPrimary};
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         font-size: 18px;
         padding-bottom: 12px;
-    };
+    }
 `;
 
 export const List = styled.li`
@@ -50,16 +50,16 @@ export const List = styled.li`
         border-radius: 50%;
         margin-right: 16px;
 
-    @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+        @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
             height: 6px;
             width: 6px;
-        };
-        };
-        
+        }
+    }
+
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         font-size: 14px;
         line-height: 120%; // sprawdź ile to px na figmie w wersji mobilnej i ewentualnie podaj w px
-    };
+    }
 `;
 
 export const Content = styled.ul`
@@ -72,5 +72,5 @@ export const Content = styled.ul`
         grid-template-columns: 1fr;
         padding: 12px 0 0;
         grid-gap: 8px;
-    };
+    }
 `;

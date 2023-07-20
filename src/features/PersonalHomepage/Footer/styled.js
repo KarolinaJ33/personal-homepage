@@ -38,7 +38,7 @@ export const Header = styled.a`
     transition: 0.3s;
 
     &:hover {
-        color: ${({ theme }) => theme.colors.footer.hover}
+        color: ${({ theme }) => theme.colors.footer.hover};
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
@@ -74,6 +74,6 @@ export const Icon = styled.a`
     color: ${({ theme }) => theme.colors.footer.primary};
 
     &:hover {
-        color: ${({ theme }) => theme.colors.footer.hover}
-    };
+        color: ${({ theme }) => theme.colors.footer.hover};
+    }
 `;

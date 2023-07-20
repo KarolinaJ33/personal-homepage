@@ -14,7 +14,7 @@ export const List = styled.ul`
         grid-template-columns: 1fr;
         grid-gap: 24px;
         margin: 24px 0 0;
-    };
+    }
 `;
 
 export const ListItem = styled.li`
@@ -30,13 +30,12 @@ export const ListItem = styled.li`
 
     &:hover {
         border: 6px solid ${({ theme }) => theme.colors.tile.borderHover};
-        
-    };
+    }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         min-height: 230px;
         padding: 24px;
-    };
+    }
 `;
 
 export const Header = styled.h3`
@@ -48,7 +47,7 @@ export const Header = styled.h3`
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         font-size: 16px;
-    };
+    }
 `;
 
 export const Description = styled.p`
@@ -64,7 +63,7 @@ export const Description = styled.p`
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         font-size: 14px;
         margin: 16px 0 16px 0;
-    };
+    }
 `;
 
 export const Span = styled.span`
@@ -80,7 +79,7 @@ export const Span = styled.span`
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         font-size: 14px;
-    };
+    }
 `;
 
 export const Link = styled.a`
@@ -95,10 +94,10 @@ export const Link = styled.a`
 
     &:hover {
         filter: brightness(140%);
-    };
+    }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         font-size: 14px;
         line-height: 120%;
-    };
+    }
 `;

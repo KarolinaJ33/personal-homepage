@@ -3,7 +3,6 @@ import { Error } from "./Error";
 import { Repositories } from "./Repositories";
 
 export const PortfolioContent = ({ portfolioState, portfolio }) => {
-    
     switch (portfolioState) {
         case "loading":
             return <Loading />;
@@ -13,6 +12,5 @@ export const PortfolioContent = ({ portfolioState, portfolio }) => {
 
         default:
             return <Error />;
-
-    };
+    }
 };
