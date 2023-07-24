@@ -8,6 +8,8 @@
 
 # Description ![image](https://github.com/KarolinaJ33/personal-homepage/assets/80458977/b13aeccb-e5fa-47bf-8e05-fca87dfe4a13)
 I made the Personal Homepage based on a design in Figma. It contains information about my current skills, my development plans and a redirect to my repository
+
+
 ![PersonalHomepage GIF](public/PersonalHomepage.gif)
 
 # Technologies
