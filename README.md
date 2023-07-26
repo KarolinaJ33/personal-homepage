@@ -1,5 +1,5 @@
 # <p align="center"> Welcome to my Personal Homepage ![image](https://github.com/KarolinaJ33/personal-homepage/assets/80458977/973421d9-4104-472f-8eae-05c085640264)</p>
-<p align="center"><img src="public/personalHomepage.png"></p>
+<p align="center"><img src="personalHomepage.png"></p>
 
 # Demo 
 
@@ -10,7 +10,7 @@
 I made the Personal Homepage based on a design in Figma. It contains information about my current skills, my development plans and a redirect to my repository
 
 
-![PersonalHomepage GIF](public/PersonalHomepage.gif)
+![PersonalHomepage GIF](PersonalHomepage.gif)
 
 # Technologies
 - `HTML`
