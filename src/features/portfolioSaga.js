@@ -5,13 +5,15 @@ import {
     fetchRepositories,
 } from "./portfolioSlice";
 import { portfolioAPI } from "./portfolioAPI";
+import { API_URL } from "../common/Constans";
 
 const DELAY_ACTION = 2000;
 
 function* fetchPortfolioHandler() {
     try {
         yield delay(DELAY_ACTION);
-        const portfolio = yield call(portfolioAPI);
+
+        const portfolio = yield call(portfolioAPI, API_URL);
         yield put(fetchRepositories(portfolio));
     } catch (error) {
         yield put(fetchError());

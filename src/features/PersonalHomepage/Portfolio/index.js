@@ -7,6 +7,7 @@ import {
     selectPortfolio,
     selectPortfolioState,
 } from "../../portfolioSlice";
+import { API_URL } from "../../../common/Constans";
 
 export const Portfolio = () => {
     const dispatch = useDispatch();
@@ -15,7 +16,7 @@ export const Portfolio = () => {
     const portfolio = useSelector(selectPortfolio);
 
     useEffect(() => {
-        dispatch(fetchPortfolio());
+        dispatch(fetchPortfolio({ url: API_URL }));
     }, []);
 
     return (
