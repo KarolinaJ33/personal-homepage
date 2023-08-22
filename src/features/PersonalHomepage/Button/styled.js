@@ -4,8 +4,9 @@ export const StyledButton = styled.button`
     display: flex;
     align-items: center;
     gap: 16px;
+    max-width: 160px;
     font-size: 20px;
-    padding: 17px;
+    padding: 12px 16px;
     height: 49px;
     border: 1px solid rgba(209, 213, 218, 0.3);
     border-radius: 4px;
