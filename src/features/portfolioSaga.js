@@ -5,7 +5,7 @@ import {
     fetchRepositories,
 } from "./portfolioSlice";
 import { portfolioAPI } from "./portfolioAPI";
-import { API_URL } from "../common/Constans";
+import { API_URL } from "../common/constans";
 
 const DELAY_ACTION = 2000;
 

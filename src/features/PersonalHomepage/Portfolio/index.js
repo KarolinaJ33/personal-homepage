@@ -7,7 +7,7 @@ import {
     selectPortfolio,
     selectPortfolioState,
 } from "../../portfolioSlice";
-import { API_URL } from "../../../common/Constans";
+import { API_URL } from "../../../common/constans";
 
 export const Portfolio = () => {
     const dispatch = useDispatch();
