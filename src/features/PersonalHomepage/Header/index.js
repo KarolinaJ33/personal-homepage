@@ -21,7 +21,7 @@ export const Header = () => {
 
     return (
         <Wrapper>
-            <Image src={photo} alt=""></Image>
+            <Image src={photo} alt="Karolina Jasiówka"></Image>
             <Content>
                 <SubHeader>This is</SubHeader>
                 <StyledHeader>Karolina Jasiówka</StyledHeader>
