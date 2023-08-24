@@ -1,5 +1,5 @@
 # <p align="center"> Welcome to my Personal Homepage ![image](https://github.com/KarolinaJ33/personal-homepage/assets/80458977/973421d9-4104-472f-8eae-05c085640264)</p>
-<p align="center"><img src="personalHomepage.png"></p>
+<p align="center"><img src="public/personalHomepage.png"></p>
 
 # Demo 
 
