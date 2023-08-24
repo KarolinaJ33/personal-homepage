@@ -3,7 +3,7 @@ import { ButtonLink, StyledButton } from "./styled";
 export const Button = ({ destinationLink, content, icon, scrollTo }) => {
     if (scrollTo) {
         return (
-            <StyledButton onClick={scrollTo}>
+            <StyledButton onClick={scrollTo} title="jasiowkakarolina@gmail.com" >
                 {icon}
                 {content}
             </StyledButton>
