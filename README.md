@@ -12,19 +12,20 @@ I made the Personal Homepage based on a design in Figma. It contains information
 
 ![PersonalHomepage GIF](PersonalHomepage.gif)
 
-# Technologies
-- `HTML`
-- `BEM`
-- `CSS`
-- `Flex/Grid`
-- `Transition`
-- `Media query`
-- `JS/ES6+`
-- `React`
-- `Redux`
-- `Redux-Saga`
-- `Styled Components`
-- `GlobalStyles & Theme`
+# Technologies:
+`HTML`
+`BEM`
+`CSS`
+ `Flex/Grid`
+ `Transition`
+ `Media query`
+ `JS/ES6+`
+ `React`
+ `Redux`
+ `Redux-Saga`
+ `Redux Toolkit`
+ `Styled Components`
+ `GlobalStyles & Theme`
 
 # Contact to me:
 <p>
