@@ -10,14 +10,14 @@ export const Repositories = ({ portfolio }) => (
                     <Span>
                         <dt>Demo:</dt>
                         <Link target="_blank" rel="noreferrer" href={homepage}>
-                            Demo
+                            Project Demo
                         </Link>
                     </Span>
                 )}
                 <Span>
                     <dt>Code:</dt>
                     <Link target="_blank" rel="noreferrer" href={html_url}>
-                        Link
+                        Github Repository
                     </Link>
                 </Span>
             </ListItem>
