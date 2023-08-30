@@ -1,9 +1,9 @@
 # <p align="center"> Welcome to my Personal Homepage ![image](https://github.com/KarolinaJ33/personal-homepage/assets/80458977/973421d9-4104-472f-8eae-05c085640264)</p>
-<p align="center"><img src="personalHomepage.png"></p>
+<p align="center"><img src="public/personalHomepage.png"></p>
 
-# Demo 
+# Demo :point_down:
 
-[See Personal Homepage
+[**See Personal Homepage**
 ](https://karolinaj33.github.io/personal-homepage/)
 
 # Description ![image](https://github.com/KarolinaJ33/personal-homepage/assets/80458977/b13aeccb-e5fa-47bf-8e05-fca87dfe4a13)
@@ -12,19 +12,20 @@ I made the Personal Homepage based on a design in Figma. It contains information
 
 ![PersonalHomepage GIF](PersonalHomepage.gif)
 
-# Technologies
-- `HTML`
-- `BEM`
-- `CSS`
-- `Flex/Grid`
-- `Transition`
-- `Media query`
-- `JS/ES6+`
-- `React`
-- `Redux`
-- `Redux-Saga`
-- `Styled Components`
-- `GlobalStyles & Theme`
+# Technologies:
+`HTML`
+`BEM`
+`CSS`
+ `Flex/Grid`
+ `Transition`
+ `Media query`
+ `JS/ES6+`
+ `React`
+ `Redux`
+ `Redux-Saga`
+ `Redux Toolkit`
+ `Styled Components`
+ `GlobalStyles & Theme`
 
 # Contact to me:
 <p>
