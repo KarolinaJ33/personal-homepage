@@ -13,6 +13,7 @@ export const Wrapper = styled.div`
 export const Button = styled.button`
     display: flex;
     align-items: center;
+    justify-content: space-between;
     color: inherit;
     background: transparent;
     font-size: 12px;
@@ -23,6 +24,13 @@ export const Button = styled.button`
     padding: 0;
     text-transform: uppercase;
     outline-offset: 8px;
+    width: 160px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+        flex-direction: column;
+        align-items: flex-end;
+        width: auto;
+    }
 `;
 
 export const Text = styled.span`
@@ -30,6 +38,8 @@ export const Text = styled.span`
     font-size: 12px;
     text-transform: uppercase;
     font-weight: 700;
+    text-align: left;
+    white-space: nowrap;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         display: none;
@@ -39,6 +49,7 @@ export const Text = styled.span`
 export const Box = styled.span`
     border-radius: 13px;
     display: flex;
+    align-items: center;
     padding: 3px;
     width: 48px;
     border: 1px solid ${({ theme }) => theme.colors.switchTheme.border};
@@ -51,6 +62,7 @@ export const IconWrapper = styled.span`
     background: ${({ theme }) => theme.colors.switchTheme.backgroundIcon};
     padding: 3px;
     transition: transform 0.3s;
+    max-width: 48px;
 
     ${({ moveToRight }) =>
         moveToRight &&
